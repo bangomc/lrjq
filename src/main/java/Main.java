@@ -54,6 +54,10 @@ public class Main {
         if (connection != null) try{connection.close();} catch(SQLException e){}
       }
     }, new FreeMarkerEngine());
+    
+    get("/teste", (req, res) -> {
+    	return System.getenv().get("ENERGIA");
+    });
 
   }
 
