@@ -1,38 +1,31 @@
-# java-getting-started
+# loginrestjquery
+Login REST JQuery 
 
-A barebones Java app, which can easily be deployed to Heroku.  
+Back-end: Webservice Restfull, Java, SPARK Framework 
 
-This application support the [Getting Started with Java on Heroku](https://devcenter.heroku.com/articles/getting-started-with-java) article - check it out.
+Front-end: Twitter Bootstrap e JQuery
 
-## Running Locally
+# Bem Vindo
 
-Make sure you have Java and Maven installed.  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
+Vamos praticar um pouco de programação?
 
-```sh
-$ git clone https://github.com/heroku/java-getting-started.git
-$ cd java-getting-started
-$ mvn install
-$ foreman start web
-```
+## Objetivo ##
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+Praticar o uso de algumas tecnologias.
 
-If you're going to use a database, ensure you have a local `.env` file that reads something like this:
+* 1-Criar um webservice [RESTfull](https://pt.wikipedia.org/wiki/REST)
+* 2-Criar uma View usando [JQuery](http://jquery.com/)
 
-```
-DATABASE_URL=postgres://localhost:5432/java_database_name
-```
+A aplicação será embarcada no [Heroku](https://www.heroku.com/)
 
-## Deploying to Heroku
+## Back-end
 
-```sh
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
+O webservice será criado em JAVA usando o [SPARK Framework](http://sparkjava.com/)
 
-## Documentation
+## Front-end
 
-For more information about using Java on Heroku, see these Dev Center articles:
+As páginas web serão criadas usando o [JQuery](http://jquery.com/)
 
-- [Java on Heroku](https://devcenter.heroku.com/categories/java)
+## Segurança
+
+A segurança será fornecida pela própria plataforma [Heroku](https://www.heroku.com/)
